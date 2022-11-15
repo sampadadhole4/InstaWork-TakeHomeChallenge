@@ -38,3 +38,11 @@ If you want, you are allowed to use a library to help manage React state such as
 Data should be stored on the client, and does not need to be persisted when the page or app is refreshed. You can structure the team member information however you want.
 Don't worry too much about visual fidelity: it's ok if the fonts, colors, and icons don't look exactly like the screenshots. We just care about the layout, composition of React components, and how the state is managed in Redux.
 Don't worry about transitions between the screens. It's ok to just replace the list content with the form, and vice-versa.
+
+
+
+## Interactions
+1. The first page show the number of team members added in the team and the details of the team members.
+2. When we click on the Add button on the Team Members view page, new page 'add a team member' will be rendered. After you enter the details of the team members, i.e First Name, Last Name, Contact, Email Id and select the role, after we click save, the details are gonna be saved and will be visible on view Team members details.
+3. If we want to edit the details of the team members added to the team, just click on the team members on the team members view and new page 'edit team members' will render. Which would let the user edit the details and save it
+4. After clicking on save on the 'Edit team members view' the details on the team  member view will be upodated
